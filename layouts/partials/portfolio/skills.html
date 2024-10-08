@@ -2,7 +2,7 @@
   <div class="my-auto" id="skills-content">
   <h2 class="mb-5">{{ i18n "skills" }}</h2>
     {{ $data := $.Data }} 
-    {{ range $data.skills }
+    {{ range $data.skills }}
         <div class="subheading mb-3 skills-heading">{{ .grouping }}</div>
             <ul>
             {{ range .skills }}
